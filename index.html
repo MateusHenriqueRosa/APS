@@ -4,9 +4,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>APS</title>
 </head>
-<body>
-    <h1>Hello world!</h1>
-</body>
+<body id="inicio">
+    <h1>imagens</h1>
+    <h2>Imagens da internet</h2>
+    <img width="500" height="300" src="https://blog.123milhas.com/wp-content/uploads/2022/03/turismo-em-balneario-camboriu-guia-de-viagem-conexao123.png" alt="Balneario Camboriu">
+
+    <h2>Videos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PClBo3FjzIg?si=FZsSD4jj2fEBZRDJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Listas</h1>
+  <h2>Listas Ordenadas:</h2>
+  <!--type=""-->
+  <!--1(numeros)-->
+  <!--a(letras)-->
+  <!--A(letras maiusculas)-->
+  <!--i(letras romanas)-->
+  <!--I(letras romanas maiusculas)-->
+  
+  <!--start=""-->
+  <!--start="10"(Começou do J)-->
+    <ol type="a" start="1">
+      <li>Arcodar</li>
+      <li>Arrumar a cama</li>
+      <li>Escovar os dentes</li>
+      <li>Tomar banho</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      <li>Ir pra escola</li>
+    </ol>
+  <br>
+  <h2>Listas não Ordenadas:</h2>
+  <!--type=""-->
+  <!--disc(Pontos preenchidos)-->
+  <!--circle(Pontos só com borda)-->
+  <!--square(Quadrado)-->
+    <ul type="disc">
+      <li>Macarrão</li>
+      <li>Água</li>
+      <li>Chocolate</li>
+      <li>Laranja</li>
+      <li>Alface</li>
+    </ul>
+  <h2>Lista de Definição:</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de Marcação para criação de sites</dd>
+    <dd>Definição 2</dd>
+    
+    <dt>CSS</dt>
+    <dd>Estilos Personalizados para sites</dd>
+  </dl>
+  
+    <h2>Listas Mistas:</h2>
+  <h3>Esportes Olimpicos:</h3>
+    <ul>
+      <li>Áquaticos:</li>
+        <ul>
+          <li>Individuais:</li>
+            <ol>
+              <li>Maratona</li>
+              <li>Canoagem</li>
+            </ol>
+          <li>Coletivos:</li>
+            <ol>
+              <li>Vela</li>
+              <li>Canoagem Duplas</li>
+            </ol>
+        </ul>
+      <li>Terrestres:</li>
+        <ul>
+          <li>Individuais:</li>
+          <li>Coletivos:</li>
+        </ul>
+    </ul>
+
+    <h2>Tabelas</h2>
+    <table border="1px">
+        <caption>Contato</caption>
+        <tr>
+            <th>Nome</th> 
+            <th>Telefone</th>
+        </tr> 
+        <tr> 
+            <td>Mateus</td>
+            <td>47 99999-9999</td>
+        </tr>
+        <tr>
+            <td>Joaozinho</td>
+            <td>47 88888-8888</td>
+        </tr>
+    </table>
+
+    <h2>Tabela colspan</h2>
+    <table border="1px">
+        <caption>Mescla colunas</caption>
+        <tr>
+            <th>Nome</th>
+            <th colspan="2">Telefone</th>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+        <tr>
+            <td>Mateus</td>
+            <td>47 99999-9999</td>
+            <td>47 99999-9999</td>
+            <td>Joaozinho</td>
+            <td>47 88888-8888</td>
+        </tr>
+    </table>
+
+    <h2>Tabela rowspan</h2>
+    <table border="1px">
+        <caption>Mescla linhas</caption>
+        <tr>
+            <th>Nome</th>
+            <td>Mateus</td>
+            <th>Nome</th>
+            <td>Joaozinho</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefone</th>
+            <td>47 99999-9999</td>
+            <th >Telefone</th>
+            <td>47 88888-8888</td>
+        </tr>
+        <tr>
+            <td>47 99999-9999</td>
+        </tr>
+    </table>
+
+    <h2>Desafio</h2>
+    <table border="1px">
+        <tr>
+            <th>Horarios</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+        </tr>
+        <tr>
+            <td>Manhã</td>
+            <td colspan="5">Acordar</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Tarde</td>
+            <td>Comer</td>
+            <td>Comer</td>
+            <td>Comer</td>
+            <td>Comer</td>
+            <td>Comer</td>
+        </tr>
+        <tr>
+            <td>Se arrumar</td>
+            <td>Se arrumar</td>
+            <td>Jogar</td>
+            <td>Se arrumar</td>
+            <td>Se arrumar</td>
+        </tr>
+        <tr>
+            <td>Noite</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Folga</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+        </tr>
+    </table>
+
 </html>
